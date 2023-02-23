@@ -1,0 +1,12 @@
+.cabecera__nombre{
+    font-family: var(--raleway);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    
+}
+.cabecera__nombre::before{
+    content: "✵";
+    
+}

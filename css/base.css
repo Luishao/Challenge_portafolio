@@ -1,0 +1,21 @@
+:root {
+    --background-body: #F5F5F5;
+    --raleway: 'Raleway', sans-serif;
+    --azul-clarito: #EAF2FD;
+}
+
+body {
+    background-color: var(--background-body);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    
+
+
+
+}
+
+
+
+

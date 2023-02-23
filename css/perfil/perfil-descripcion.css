@@ -1,0 +1,8 @@
+.perfil__descripcion{
+    font-family: var(--raleway);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #464646;
+}
