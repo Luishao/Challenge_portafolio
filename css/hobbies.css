@@ -1,13 +1,14 @@
-.skills {
+.hobbies {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0px;
     gap: 32px;
+  
 
 }
 
-.skills__title {
+.hobbies__title {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -16,7 +17,7 @@
     color: #464646;
 }
 
-.skills__line {
+.hobbies__line {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -26,21 +27,20 @@
 
 }
 
-.skills__box {
+.hobbies__box {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
     padding: 16px;
     gap: 8px;
-
     width: 176px;
     height: 174px;
     background: #FFFFFF;
 
 }
 
-.skills__img {
+.hobbies__img {
     left: 12.5%;
     right: 16.67%;
     top: 4.17%;
@@ -48,7 +48,7 @@
     margin-bottom: 10px;
 }
 
-.skills__name {
+.hobbies__name {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -58,14 +58,13 @@
     align-items: center;
     color: #464646;
 }
-
 @media screen and (max-width: 480px) {
-    .skills {
-        width: 480px;
+    .hobbies {
+        width: auto;
 
     }
 
-    .skills__line {
+    .hobbies__line {
         display: flex;
         flex-wrap: wrap;
         width: auto;

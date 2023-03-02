@@ -4,18 +4,15 @@
     --azul-clarito: #EAF2FD;
 }
 
-body {
-    background-color: var(--background-body);
+.all {
+    background: var(--background-body);
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0px;
-    
-
-
-
+    gap: 32px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0px;  
 }
-
-
-
-
